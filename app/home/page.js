@@ -26,7 +26,7 @@ function page() {
               <span>d</span>
             </h6>
             <div>
-              <span className='fs-1'>Hi,</span>
+              <span className='fs-1 me-1'>Hi,</span>
               <span>I'</span>
               <span>m</span>&nbsp;
               <span>A</span>
@@ -44,7 +44,7 @@ function page() {
               <span>y</span>
               <span>a</span>
               <span>y</span>
-            </div>
+            </div>  
             <h1 className='text-uppercase'>
               <span>w</span>
               <span>e</span>
@@ -67,7 +67,7 @@ function page() {
           </div>
         </Col>
         <Col md={6} className='d-flex justify-conetent-center align-items-center' >
-          <Image src='/demonSlayer-Photoroom.png' width={500} height={500} alt='..' placeholder='blur' blurDataURL='data ...' />
+          <Image src='/demonSlayer-Photoroom.png' width={700} height={700} alt='..' placeholder='blur' blurDataURL='data ...' className='img-fluid' />
         </Col>
       </Row>
     </Container>
