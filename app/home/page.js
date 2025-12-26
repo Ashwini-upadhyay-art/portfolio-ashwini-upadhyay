@@ -31,7 +31,7 @@ function page() {
             <div>
               <span className='fs-1 me-1'>Hi,</span>
               <span>I</span>
-              <span>'</span>
+              <span>&apos;</span>
               <span>m</span>&nbsp;
               <span>A</span>
               <span>s</span>
