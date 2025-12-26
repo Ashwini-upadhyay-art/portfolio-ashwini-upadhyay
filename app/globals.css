@@ -14,6 +14,7 @@ html {
     border: 2px solid var(--myColor);
     border-radius: 40px;
     user-select: none;
+    position: relative;
 }
 
 /* .home .row{
@@ -43,26 +44,43 @@ html {
     user-select: none;
 }
 
-.button{
+.button {
     box-shadow: none;
     border: 1px solid black;
     border-radius: 20px;
     padding: 0.5rem 1rem;
 }
 
-.outline{
+.outline {
     background: transparent;
     border: 0.8px solid rgba(255, 255, 255, 0.76);
     color: rgba(255, 255, 255, 0.76);
 }
 
-.button:hover{
+.button:hover {
     color: white;
     background: transparent;
     border: 1px solid white;
 }
 
-.outline:hover{
+.outline:hover {
     background: #fff;
     color: black;
+}
+
+.DS {
+    position: absolute;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }

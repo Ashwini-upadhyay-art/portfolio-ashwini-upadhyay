@@ -12,7 +12,18 @@ export default function Home() {
   const con = useRef();
   const navigate = useRouter();
   useEffect(() => {
-    const tl = gsap.timeline();
+    const tl = gsap.timeline({
+      onComplete: () => {
+        gsap.to(card.current.children, {
+          y: -10,
+          repeat: -1,
+          yoyo: true,
+          duration: 1.5,
+          ease: "power1.inOut",
+          stagger: 0.2,
+        });
+      },
+    });
     tl.from(con.current, {
       duration: 0.5,
       opacity: 0,
