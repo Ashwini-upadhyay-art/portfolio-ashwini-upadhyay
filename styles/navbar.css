@@ -75,3 +75,13 @@ body {
     display: flex;
   }
 }
+
+.social-icons a {
+  color: #fff;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: #0a66c2; /* LinkedIn blue */
+  transform: scale(1.1);
+}
