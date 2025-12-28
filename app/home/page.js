@@ -30,7 +30,7 @@ function HomePage() {
             <h6 className="text-uppercase">
               <AnimatedText text="Welcome to my world" />
             </h6>
-            <div className="my-4">
+            <div className="my-3">
               <span className="fs-1 me-2">Hi, I&apos;m</span>
               <span className="fs-1 text-uppercase">
                 <AnimatedText text="Ashwini Upadhyay" />
@@ -39,11 +39,11 @@ function HomePage() {
             <h1 className="text-uppercase">
               <AnimatedText text="web developer" />
             </h1>
-            <p className="lead my-3">
+            <p className="lead lh-sm my-3">
               A passionate software developer specializing in React.js and
               modern web development.
             </p>
-            <div className="my-3 d-flex justify-content-around col-md-6 social-icons">
+            <div className="mb-4 d-flex justify-content-between col-md-6 social-icons">
               <a
                 href="https://www.linkedin.com/in/ashwini-upadhyay-0924b6222?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                 target="_blank"
